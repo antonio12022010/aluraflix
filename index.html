@@ -1,22 +1,73 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aluraflix</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-    
-<body> <!--inicio, corpo do documento-->
-    <header>ALURAFLIX</header>
-    <section>
-        <div>
-            <h1>ATRAVES DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
-            <p>#homem-aranha</p>
-        </div>
+/*variaveis*/
+:root {
+    --amarelo: #ffca1b;
+    --branco: #fff;
+    --lilas-claro: #eb76db;
+    --azul-médio: #2f4dd1;
+    --vermelho:#f40034;
+}
+/*corpo da página*/
+body {
+    color: var(--branco);/*cor da fonte*/
+    background-color: var(--preto);/*cor de fundo*/
+    margin: 0px; /* não terá margem padrão*/
+}
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_
-    
-</body>
-</ht
+header {
+    border: solid 2px;
+    border-color: var(--branco);/*cor da borda*/
+    padding: 20px;/*espaçamento interno*/
+    font-size: 32px;/*tamanho da fonte*/
+    color: var(--amarelo);/*cor da fonte*/
+}
+
+section {
+    background-color: var(--lilas-claro);/*cor de fundo*/
+    padding-bottom: 80px;/*espaçamento inferior*/
+    padding-top: 80px;/*espaçamento superior*/
+    display: flex;/*alterar a disposição*/
+    justify-content: center;/* justificado no centro*/
+}
+
+div {
+    margin-right: 20px;/*margem a direita*/
+}
+
+h1 {
+font-size: 1.5rem;
+text-align: center;
+padding-top: 10px;
+}
+
+p {
+font-size: 1rem;
+text-align: center;
+padding-top: 0px;
+}
+
+.chamada-texto {
+margin-right: 20px;
+}
+
+.chamada {
+background: rgb(184, 156, 213);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+img {
+width: 300px;
+height: 200px;
+}
+
+.outras-recomendacoes {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+h2 {
+margin-left: 30px;
+}
